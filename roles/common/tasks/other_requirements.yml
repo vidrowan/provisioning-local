@@ -27,16 +27,16 @@
   command: "{{ ansible_env.HOME }}/setup/fixubuntu.sh"
   sudo: true
 
-- name: enable workspaces - two horizontal
-  gsettings:
-    schema: org.compiz.core:/org/compiz/profiles/unity/plugins/core/
-    key: hsize
-    int: 2
+#- name: enable workspaces - two horizontal
+#  gsettings:
+#    schema: org.compiz.core:/org/compiz/profiles/unity/plugins/core/
+#    key: hsize
+#    int: 2
 
-- name: enable workspaces - two vertical
-  gsettings:
-    schema: org.compiz.core:/org/compiz/profiles/unity/plugins/core/
-    key: vsize
-    int: 2
+#- name: enable workspaces - two vertical
+#  gsettings:
+#    schema: org.compiz.core:/org/compiz/profiles/unity/plugins/core/
+#    key: vsize
+#    int: 2
 
 
