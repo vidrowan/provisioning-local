@@ -10,7 +10,7 @@ How To Install With One Command
 -------------------------------
 
 ```bash
-wget -qO- https://github.com/JBKahn/provisioning-local/raw/master/run.sh | bash
+wget -qO- https://github.com/vidrowan/provisioning-local/raw/master/run.sh | bash
 ```
 
 
@@ -34,7 +34,7 @@ How To Install The Old Fashioned Way
   * [setup ssh keys](https://help.github.com/articles/generating-ssh-keys)
 4.  Checkout this repo and cd into the directory
   ```bash
-  git clone https://github.com/JBKahn/provisioning-local.git <dir>
+  git clone https://github.com/vidrowan/provisioning-local.git <dir>
   cd <dir>
   ```
 
